@@ -2,11 +2,11 @@
 #' 
 #' This function is used to merge multiple ggplot2 object together and share same legend.
 #' 
-#' @... ggplot2 objects
-#' @ncol number of columns
-#' @nrow number of rows
-#' @position "bottom" or "right", location to place the legend
-#' @title title of the graph
+#' @param ... ggplot2 objects
+#' @param ncol number of columns
+#' @param nrow number of rows
+#' @param position "bottom" or "right", location to place the legend
+#' @param title title of the graph
 #' 
 grid_arrange_shared_legend <- function(..., ncol = length(list(...)), nrow = 1, position = c("bottom", "right"), title = NULL) {
   

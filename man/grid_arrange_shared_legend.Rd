@@ -2,7 +2,7 @@
 % Please edit documentation in R/grid_arrange_shared_legend.r
 \name{grid_arrange_shared_legend}
 \alias{grid_arrange_shared_legend}
-\title{title of the graph}
+\title{This function is used to merge multiple ggplot2 object together and share same legend.}
 \usage{
 grid_arrange_shared_legend(
   ...,
@@ -11,6 +11,17 @@ grid_arrange_shared_legend(
   position = c("bottom", "right"),
   title = NULL
 )
+}
+\arguments{
+\item{...}{ggplot2 objects}
+
+\item{ncol}{number of columns}
+
+\item{nrow}{number of rows}
+
+\item{position}{"bottom" or "right", location to place the legend}
+
+\item{title}{title of the graph}
 }
 \description{
 This function is used to merge multiple ggplot2 object together and share same legend.
