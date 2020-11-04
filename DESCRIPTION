@@ -1,13 +1,13 @@
 Package: larrys
 Title: Larry's personal package
-Version: 0.0.0.9000
+Version: 0.1
 Authors@R: 
     person(given = "Larry",
            family = "Shi",
            role = c("aut", "cre"),
            email = "yj.shi@link.cuhk.edu.hk")
 Description: I use this package to store some functions that are useful in my research.
-License: use_mit_license()
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
