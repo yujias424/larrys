@@ -7,6 +7,7 @@
 #' @param nrow number of rows
 #' @param position "bottom" or "right", location to place the legend
 #' @param title title of the graph
+#' @export
 #' 
 grid_arrange_shared_legend <- function(..., ncol = length(list(...)), nrow = 1, position = c("bottom", "right"), title = NULL) {
   

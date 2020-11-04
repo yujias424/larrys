@@ -8,6 +8,7 @@
 #' @param workflow_type "HTSeq - FPKM-UQ"
 #' @param sample_type "Primary Tumor"
 #' @return GDCprepare objects that can be further used for get exp matrix
+#' @export
 #' 
 fetch_tcga_data <- function(tcga_type, 
                             download_location, 
