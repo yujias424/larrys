@@ -19,7 +19,7 @@ fetch_tcga_data <- function(tcga_type,
                             legacy = F,
                             data.type = data_type,
                             workflow.type = workflow_type,
-                            sample.type = sampe_type)
+                            sample.type = sample_type)
   TCGAbiolinks::GDCdownload(g_query_tumor, directory = paste0(download_location, "/", tcga_type, "_tumor"))
   tumor <- TCGAbiolinks::GDCprepare(g_query_tumor, save = FALSE, 
                       directory = paste0(download_location, "/", tcga_type, "_tumor"))
